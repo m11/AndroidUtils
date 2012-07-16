@@ -75,7 +75,7 @@ public class Logger {
 		this.verbose( makeLogMessage( STACK_INDEX, SETTER_MESSAGE_PREFIX + message ) );
 	}
 	
-	public void GetterIn() {
+	public void getterIn() {
 		this.verbose( makeLogMessage( STACK_INDEX, GETTER_MESSAGE ) );
 	}
 	
